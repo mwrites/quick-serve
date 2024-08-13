@@ -1,7 +1,11 @@
 # Quick ML Inference
 
-| Stack | Dev Image | Service | UI    |
-|-------|-----------|---------|-------|
-| [Rust](./mlrust/) | [x]       | [ ]     | [ ]   |
-| [Python](./fastapi_gradio//) | [x]       | [x]     | [x]   |
+# Quick ML Inference
+
+| Stack | Dev Image | Service | UI |
+|:-----:|:---------:|:-------:|:--:|
+| [🦀 Rust](./mlrust/) | ✅ | 🚧 | 🚧 |
+| [🐍 Python](./fastapi_gradio/) | ✅ | ✅ | ✅ |
+
+✅ - Implemented   🚧 - In Progress
 
