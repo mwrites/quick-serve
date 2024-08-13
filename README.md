@@ -1,7 +1,5 @@
 # Quick ML Inference
 
-# Quick ML Inference
-
 | Stack | Dev Image | Service | UI |
 |:-----:|:---------:|:-------:|:--:|
 | [🦀 Rust](./mlrust/) | ✅ | 🚧 | 🚧 |
