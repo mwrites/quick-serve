@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  cat_breeds_api:
+    build:
+      context: ./service
+    # using 80 here for easier deployment on aws
+    ports:
+      - "8000:80"
+    volumes:
+      - ./service:/app
+
+  gradio_app:
+    build:
+      context: ./gradio
+    # you will need to handle the port forward with aws or other cloud providers
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./gradio:/app
+    environment:
+      - PREDICT_URL=http://host.docker.internal:8000/predict
+      
+
