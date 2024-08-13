@@ -15,7 +15,7 @@ COPY --from=deps /usr/local/rustup /usr/local/rustup
 RUN rustup default stable
 
 # Basic stuff
-ARG APTPKGS="zsh wget tmux tldr nvtop vim neovim curl rsync net-tools less iputils-ping 7zip zip unzip lld lshw ffmpeg gcc openssh-server openssh-client git git-lfs python3-pip python3-venv"
+ARG APTPKGS="pkg-config libssl-dev zsh wget tmux tldr nvtop vim neovim curl rsync net-tools less iputils-ping 7zip zip unzip lld lshw ffmpeg gcc openssh-server openssh-client git git-lfs python3-pip python3-venv"
 
 # Install useful command line utility software
 RUN apt-get update -y && \
