@@ -4,6 +4,3 @@
 |:-----:|:---------:|:-------:|:--:|
 | [🦀 Rust](./mlrust/) | ✅ | 🚧 | 🚧 |
 | [🐍 Python](./fastapi_gradio/) | ✅ | ✅ | ✅ |
-
-✅ - Implemented   🚧 - In Progress
-
