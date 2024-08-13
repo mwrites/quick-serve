@@ -25,6 +25,8 @@ RUN apt-get update -y && \
 
 # Cuda
 ENV PATH="/usr/local/cuda/bin:${PATH}"
+ENV CUDNN_PATH="/usr/lib/x86_64-linux-gnu/libcudnn.so"
+ENV LD_LIBRARY_PATH="/usr/local/cuda/lib64:${LD_LIBRARY_PATH}"
 
 
 COPY requirements.txt /tmp/requirements.txt
